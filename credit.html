@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/credit.css">
+  <title>Credit Card Payment</title>
+</head>
+
+<body>
+  <a href="Abhussa.html"><button style=" height: 40px; width: 75px; font-size: medium; ">HOME</button></a>
+
+
+  <header>
+    <h1>Credit Card Payment</h1>
+    <p>Enter your credit card details to complete the payment.</p>
+  </header>
+  <main>
+    <form action="credit.php" method="POST">
+      <label for="cardNumber">Card Number:</label>
+      <input type="text" id="cardNumber" name="Number" required>
+
+      <label for="expiryDate">Expiry Date:</label>
+      <input type="text" id="expiryDate" name="Date" placeholder="MM/YY" required>
+
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv" required>
+      <button type="submit">Submit Payment</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 1998 Abhushan Store. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
